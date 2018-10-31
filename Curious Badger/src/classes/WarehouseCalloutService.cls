@@ -22,6 +22,7 @@ public with sharing class WarehouseCalloutService {
                 UpsertProduct.add(prd);
             }
             system.debug(UpsertProduct);
+	system.debug('Upsert products are' + UpsertProduct);
             upsert UpsertProduct;
         }
 
